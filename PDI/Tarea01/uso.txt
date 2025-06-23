@@ -1,0 +1,23 @@
+Tarea 01
+
+José Camilo García Ponce
+319210536
+
+Tarea sobre filtros basicos
+Mi programa aplica los siguentes filtros: rojo, verde, azul, escala de grises, alto contraste, inverso, brillo, componentes rgb y mosaico
+Usando las definiciones y conocimientos vistos en clase
+Las funciones que hacen el trabajo de los filtros son red(), green(), blue(), escala_grises(), escala_grises_simple(), alto_contraste(), 
+inverso(), brillo(), componentes_rgb() y mosaico()
+
+Para usar el programa se necesitan los paquetes tkinter, scikit-image, numpy, pillow
+Se pueden instalar con:
+    pip install tk scikit-image numpy pillow
+Para correr el programa solo es necesario usar:
+    python filtros.py
+Luego solo elegir una imagen con el boton abrir imagen
+Despues seleccionar el boton del filtro que se quiera usar (y dar los valores extras en algunos filtros)
+Esperar un tiempo y en la imagen del lado derecho va a estar la imagen modificada
+
+Se recomienda usar imagenes pequenias (como patito.jpg) para que los filtros sean rapidos y que se pueda ver la imagen original
+y la modificada en la pantalla, ya que con imagenes grandes o medianas (como ave1.jpeg) solo se puede ver la original
+

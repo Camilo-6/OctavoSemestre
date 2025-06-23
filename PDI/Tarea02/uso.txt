@@ -1,0 +1,31 @@
+Tarea 02
+
+José Camilo García Ponce
+319210536
+
+Tarea sobre filtros usando HTML
+Mi programa aplica los siguentes filtros: simbolo en colores, simbolo en escala de grises, letras en blanco y negro, texto en colores, dominos y cartas
+Simbolo en colores solo es usar el simbolo "@" y ponerle el color promedio de la region de pixeles
+Simbolo en escala de grises es usar el simbolo "@" y ponerle el gris promedio de la region de pixeles
+Letras en blanco y negro es usar una de los simboloes "MNH#QUAD0Y2$%+. " dependiendo del tono de gris promedio de la region de pixeles
+Texto en colores es usar los caracteres de una cadena y ponerle el color promedio de la region de pixeles
+Dominos es usar simbolos que son piezas de domino horizontales dependiendo del tono de gris promedio de la region de pixeles
+Cartas es usar simbolos que son cartas dependiendo del tono de gris promedio de la region de pixeles
+Usando las definiciones y conocimientos vistos en clase, asi como la siguente pagina https://www.htmlsymbols.xyz/games-symbols
+Las funciones que hacen el trabajo de los filtros son imagen_a_html(), imagen_a_html_gris(), imagen_a_html_letras(), imagen_a_html_cadena(), 
+imagen_a_domino(), imagen_a_domino_fuente(), imagen_a_carta() y imagen_a_carta_fuente()
+
+Para usar el programa se necesitan los paquetes tkinter, scikit-image, numpy, pillow
+Se pueden instalar con:
+    pip install tk scikit-image numpy pillow
+Para correr el programa solo es necesario usar:
+    python filtros.py
+Luego solo elegir una imagen con el boton abrir imagen
+Despues seleccionar el boton del filtro que se quiera usar (y dar los valores extras en algunos filtros)
+Esperar un tiempo y en la imagen del lado derecho va a estar la imagen modificada
+
+Se recomienda usar imagenes pequenias (como pajaro000.png o patito.jpg) para que los filtros sean rapidos y que se pueda ver la imagen original
+y la modificada en la pantalla, ya que con imagenes grandes o medianas solo se puede ver la original y los filtros llegan a ser muy tardados
+Para ver las imagenes en la pagina HTML creada con los filtros fuente se necesita usar el comando python3 -m http.server (en el directorio donde 
+esta filtros.py) y luego entrar a la pagina para ver la imagen (ejemplo http://localhost:8000/imagenes/pajaro016.html)
+

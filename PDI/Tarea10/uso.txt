@@ -1,0 +1,38 @@
+Tarea 10
+
+José Camilo García Ponce
+319210536
+
+Tarea sobre filtros de ecualizacion del histograma
+Mi programa aplica los siguentes filtros: ecualizar histograma
+Para el filtro Ecualizar histograma primero pasamos la imagen a tonos de gris, luego obtenemos el histograma de la imagen, despues a cada 
+pixel se le aplica la forma vista en clase y en https://en.wikipedia.org/wiki/Histogram_equalization#Implementation para obtener el nuevo 
+valor del pixel, al final del proceso se ecualiza el histograma
+Usando las definiciones y conocimientos vistos en clase
+Las funciones que hacen el trabajo de los filtros son ecualizar() y histograma_grises()
+
+Para usar el programa se necesitan los paquetes tkinter, scikit-image, numpy, pillow, math, opencv-python, matplotlib
+Se pueden instalar con:
+    pip install tk scikit-image numpy pillow opencv-python matplotlib
+Para correr el programa solo es necesario usar:
+    python filtros.py
+Luego solo elegir una imagen con el boton abrir imagen
+Despues seleccionar el boton del filtro que se quiera usar (y dar los valores extras en algunos filtros)
+Esperar un tiempo y en la imagen del lado derecho va a estar la imagen modificada
+En el caso del filtro Recursion Colores reales se van a pedir datos (los tamanios de las regiones) y luego se va a pedir la imagen que se usara 
+para crear las micas
+
+Este programa soporta imagenes en formato png, jpg y jpeg, pero las imagenes necesitan tener tres canales (rojo, verde, azul), en caso de usar 
+otro tipo de imagenes pueden no ser leidas
+
+Se recomienda usar imagenes pequenias (como pajaro000.png o patito.jpg) para que los filtros sean rapidos y que se pueda ver la imagen original
+y la modificada en la pantalla, ya que con imagenes grandes o medianas solo se puede ver la original y los filtros llegan a ser muy tardados
+Para ver las imagenes en la pagina HTML creada con los filtros fuente se necesita usar el comando python3 -m http.server (en el directorio donde 
+esta filtros.py) y luego entrar a la pagina para ver la imagen (ejemplo http://localhost:8000/imagenes/pajaro016.html)
+Para el filtro Recursion Colores reales se recomienda que las regiones de la imagen original sean 10x10 o mayores, ya que valores menores pueden 
+tardar mucho
+Para los filtros de Dithering se necesita usar una imagen en tono de grises (como pajaro004.png)
+Para los filtros de Semitonos se necesita usar una imagen en tono de grises (como pajaro004.png)
+Para el filtro Posterizar se recomienda usar potencias de dos para el numero de niveles, ya que usar otros numeros pueda causar desbordamientos
+Para el filtro Oleo blur se recomienda usar imagenes pequenias (como patito.jpg) esto debido a que el filtro blur es algo tardado
+

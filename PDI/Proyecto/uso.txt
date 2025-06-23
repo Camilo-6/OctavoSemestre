@@ -1,0 +1,41 @@
+Proyecto
+
+José Camilo García Ponce
+319210536
+
+Tarea sobre fotomosaicos
+Mi programa aplica los siguentes filtros: fotomosaico y blending
+Para el filtro fotomosaico se usa una carpeta con imagenes y un archivo con el RGB promedio de cada una de las imagenes, luego se recorre la 
+imagen por regiones y se calcula el RGB promedio de cada region, usando este promedio se busca la imagen, de la carpeta, con el RGB mas similar 
+para ponerla en el lugar de la region, al final del proceso se realiza blending entre la imagen original y el mosaico generado
+Usando las definiciones y conocimientos vistos en clase
+Las funciones que hacen el trabajo de los filtros son generar_txt_rgb(), generar_fotomosaico(), crear_orden_fotomosaico(), 
+encontrar_imagenes_cercanas(), distancia_rgb(), crear_fotomosaico(), blending() y blending_tamanios()
+
+Para usar el programa se necesitan los paquetes tkinter, scikit-image, numpy, pillow, math, opencv-python, matplotlib, os, random
+Se pueden instalar con:
+    pip install tk scikit-image numpy pillow opencv-python matplotlib os random
+Para correr el programa solo es necesario usar:
+    python filtros.py
+Luego solo elegir una imagen con el boton abrir imagen
+Despues seleccionar el boton del filtro que se quiera usar (y dar los valores extras en algunos filtros)
+Esperar un tiempo y en la imagen del lado derecho va a estar la imagen modificada
+En el caso del filtro Recursion Colores reales se van a pedir datos (los tamanios de las regiones) y luego se va a pedir la imagen que se usara 
+para crear las micas
+Para los fotomosaicos se necesita una carpeta con imagenes procesada por la opcion "Procesar imagenes"
+
+Este programa soporta imagenes en formato png, jpg y jpeg, pero las imagenes necesitan tener tres canales (rojo, verde, azul), en caso de usar 
+otro tipo de imagenes pueden no ser leidas
+
+Se recomienda usar imagenes pequenias (como pajaro000.png o patito.jpg) para que los filtros sean rapidos y que se pueda ver la imagen original
+y la modificada en la pantalla, ya que con imagenes grandes o medianas solo se puede ver la original y los filtros llegan a ser muy tardados
+Para ver las imagenes en la pagina HTML creada con los filtros fuente se necesita usar el comando python3 -m http.server (en el directorio donde 
+esta filtros.py) y luego entrar a la pagina para ver la imagen (ejemplo http://localhost:8000/imagenes/pajaro016.html)
+Para el filtro Recursion Colores reales se recomienda que las regiones de la imagen original sean 10x10 o mayores, ya que valores menores pueden 
+tardar mucho
+Para los filtros de Dithering se necesita usar una imagen en tono de grises (como pajaro004.png)
+Para los filtros de Semitonos se necesita usar una imagen en tono de grises (como pajaro004.png)
+Para el filtro Posterizar se recomienda usar potencias de dos para el numero de niveles, ya que usar otros numeros pueda causar desbordamientos
+Para el filtro Oleo blur se recomienda usar imagenes pequenias (como patito.jpg) esto debido a que el filtro blur es algo tardado
+Para el filtro Arte con hilo se recomienda usar una cantidad de hilos no tan grande esto debido a que el proceso puede ser muy tardado
+

@@ -1,0 +1,34 @@
+Tarea 05
+
+José Camilo García Ponce
+319210536
+
+Tarea sobre semitonos
+Mi programa aplica los siguentes filtros: circulos, matriz 3x3, matriz 2x2, dados grandes y dados
+Para todos los filtros se usa el mismo metodo, solo cambia las imagenes usadas, primero recorre la imagen por regiones de pixeles, calculando el promedio de 
+tono de gris y crea un orden de los promedios, luego se guardan las imagenes que se usan para generar una nueva imagen, por ultimo se recorrer el orden volviendo 
+las imagenes mas pequenias y poniendolas en el lugar correcto de la imagen nueva
+Usando las definiciones y conocimientos vistos en clase
+Las funciones que hacen el trabajo de los filtros son semitonos_circulos(), crear_orden_circulo(), semitonos_3x3(), crear_orden_3x3(), semitonos_2x2(), 
+crear_orden_2x2(), semitonos_dado_grande(), crear_orden_dado_grande(), semitonos_dado(), crear_orden_dado(), crear_semitono(), crear_semitono_especial() y 
+reducir_especial()
+
+Para usar el programa se necesitan los paquetes tkinter, scikit-image, numpy, pillow
+Se pueden instalar con:
+    pip install tk scikit-image numpy pillow
+Para correr el programa solo es necesario usar:
+    python filtros.py
+Luego solo elegir una imagen con el boton abrir imagen
+Despues seleccionar el boton del filtro que se quiera usar (y dar los valores extras en algunos filtros)
+Esperar un tiempo y en la imagen del lado derecho va a estar la imagen modificada
+En el caso del filtro Recursion Colores reales se van a pedir datos (los tamanios de las regiones) y luego se va a pedir la imagen que se usara 
+para crear las micas
+
+Se recomienda usar imagenes pequenias (como pajaro000.png o patito.jpg) para que los filtros sean rapidos y que se pueda ver la imagen original
+y la modificada en la pantalla, ya que con imagenes grandes o medianas solo se puede ver la original y los filtros llegan a ser muy tardados
+Para ver las imagenes en la pagina HTML creada con los filtros fuente se necesita usar el comando python3 -m http.server (en el directorio donde 
+esta filtros.py) y luego entrar a la pagina para ver la imagen (ejemplo http://localhost:8000/imagenes/pajaro016.html)
+Para el filtro Recursion Colores reales se recomienda que las regiones de la imagen original sean 10x10 o mayores, ya que valores menores pueden tardar mucho
+Para los filtros de Dithering se necesita usar una imagen en tono de grises (como pajaro004.png)
+Para los filtros de Semitonos se necesita usar una imagen en tono de grises (como pajaro004.png)
+

@@ -1,0 +1,25 @@
+Tarea Reto
+
+José Camilo García Ponce
+319210536
+
+Tarea sobre quitar marca de agua a imagenes especificas (en tono de grises con marca de agua rojas)
+Las funciones que hacen el trabajo de los filtros son quitar_marca_agua() y estimar_brillo()
+
+Para usar el programa se necesitan los paquetes tkinter, scikit-image, numpy, pillow
+Se pueden instalar con:
+    pip install tk scikit-image numpy pillow
+Para correr el programa solo es necesario usar:
+    python filtros.py
+Luego solo elegir una imagen con el boton abrir imagen
+Despues seleccionar el boton del filtro que se quiera usar (y dar los valores extras en algunos filtros)
+Esperar un tiempo y en la imagen del lado derecho va a estar la imagen modificada
+
+Se recomienda usar imagenes pequenias (como pajaro000.png o patito.jpg) para que los filtros sean rapidos y que se pueda ver la imagen original
+y la modificada en la pantalla, ya que con imagenes grandes o medianas solo se puede ver la original y los filtros llegan a ser muy tardados
+Para ver las imagenes en la pagina HTML creada con los filtros fuente se necesita usar el comando python3 -m http.server (en el directorio donde 
+esta filtros.py) y luego entrar a la pagina para ver la imagen (ejemplo http://localhost:8000/imagenes/pajaro016.html)
+Para las imagenes a las cuales quitarles la marca de agua se recomienda usar las imagenes en la carpeta imagenes_marca_agua, ya que en otras imagenes 
+puede que el proceso no sea tan bueno
+
+Las imagenes sin la marca de agua se encuentran en imagenes_sin_marca_agua

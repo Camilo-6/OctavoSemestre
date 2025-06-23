@@ -1,0 +1,33 @@
+Tarea 06
+
+José Camilo García Ponce
+319210536
+
+Tarea sobre posterizar y solarizar
+Mi programa aplica los siguentes filtros: circulos, matriz 3x3, matriz 2x2, dados grandes y dados
+Para posterizar recorremos la imagen y para cada pixel aplicamos esta formula R = round(((R div Factor) + 0.5) * Factor) (para cada canal)
+Para posterizar recorremos la imagen y para cada pixel vemos si algun canal supera un umbral y si lo supera entonces R = 255 - R (para los canales que superen 
+el umbral indicado), si no lo superan los dejamos asi
+Usando las definiciones y conocimientos vistos en clase
+Las funciones que hacen el trabajo de los filtros son posterizar() y solarizar()
+
+Para usar el programa se necesitan los paquetes tkinter, scikit-image, numpy, pillow
+Se pueden instalar con:
+    pip install tk scikit-image numpy pillow
+Para correr el programa solo es necesario usar:
+    python filtros.py
+Luego solo elegir una imagen con el boton abrir imagen
+Despues seleccionar el boton del filtro que se quiera usar (y dar los valores extras en algunos filtros)
+Esperar un tiempo y en la imagen del lado derecho va a estar la imagen modificada
+En el caso del filtro Recursion Colores reales se van a pedir datos (los tamanios de las regiones) y luego se va a pedir la imagen que se usara 
+para crear las micas
+
+Se recomienda usar imagenes pequenias (como pajaro000.png o patito.jpg) para que los filtros sean rapidos y que se pueda ver la imagen original
+y la modificada en la pantalla, ya que con imagenes grandes o medianas solo se puede ver la original y los filtros llegan a ser muy tardados
+Para ver las imagenes en la pagina HTML creada con los filtros fuente se necesita usar el comando python3 -m http.server (en el directorio donde 
+esta filtros.py) y luego entrar a la pagina para ver la imagen (ejemplo http://localhost:8000/imagenes/pajaro016.html)
+Para el filtro Recursion Colores reales se recomienda que las regiones de la imagen original sean 10x10 o mayores, ya que valores menores pueden tardar mucho
+Para los filtros de Dithering se necesita usar una imagen en tono de grises (como pajaro004.png)
+Para los filtros de Semitonos se necesita usar una imagen en tono de grises (como pajaro004.png)
+Para el filtro Posterizar se recomienda usar potencias de dos para el numero de niveles, ya que usar otros numeros pueda causar desbordamientos
+
