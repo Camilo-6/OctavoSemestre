@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2468097791621105020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7625854010252446635}
+  - component: {fileID: 4610154595614283467}
+  m_Layer: 0
+  m_Name: SpawnerEnemigos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7625854010252446635
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2468097791621105020}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4610154595614283467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2468097791621105020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc7c04c073956cc45ac0af120c187014, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controladorJuego: {fileID: 0}
+  prefabEnemigoBasico: {fileID: 7528343652219802688, guid: ea7c9cea3e775e542b5036391f541960, type: 3}
+  prefabEnemigoRapido: {fileID: 7528343652219802688, guid: 69a851f319355ec46941fdb02fe3b7fa, type: 3}
+  prefabEnemigoPesado: {fileID: 7528343652219802688, guid: 21817c614530bfd4ebc4eb99511ab8ee, type: 3}
+  prefabEnemigoBasico_L2: {fileID: 7528343652219802688, guid: 504506bebfbb01a4d8065d0328d7086c, type: 3}
+  prefabEnemigoRapido_L2: {fileID: 7528343652219802688, guid: 8f481e53e391a5042b616348850631c4, type: 3}
+  prefabEnemigoPesado_L2: {fileID: 7528343652219802688, guid: af6b5ce8ceaeb5046a8dc90fee9ee181, type: 3}
+  prefabEnemigoArmadura: {fileID: 7528343652219802688, guid: a495c80cb0e4d444e9cc31ee31967550, type: 3}
+  prefabEnemigoArmaduraEnMuerte: {fileID: 7528343652219802688, guid: 0447bdd8ea35f2948a9e9a8c933db1ee, type: 3}
+  prefabEnemigoJefeOvni: {fileID: 7528343652219802688, guid: 3fbd27d34801fe54dbd933a77e04a3ae, type: 3}
+  levelData: {fileID: 11400000, guid: 31b0b5a664d865740a4ce28b32b9f73b, type: 2}
+  initialDelay: 3

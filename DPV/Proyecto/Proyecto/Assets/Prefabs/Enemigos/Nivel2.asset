@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fe662dce55f1e14dacac36aa5ae033b, type: 3}
+  m_Name: Nivel2
+  m_EditorClassIdentifier: 
+  nombreDelNivel: Nivel 2
+  rondas:
+  - enemigoBasicoCount: 1
+    enemigoRapidoCount: 2
+    enemigoPesadoCount: 0
+    enemigoBasicoL2Count: 0
+    enemigoRapidoL2Count: 0
+    enemigoPesadoL2Count: 0
+    enemigoArmaduraCount: 0
+    enemigoArmaduraEnMuerteCount: 0
+    enemigoJefeOvniCount: 0
+    delayAfterRound: 20
+  - enemigoBasicoCount: 1
+    enemigoRapidoCount: 3
+    enemigoPesadoCount: 0
+    enemigoBasicoL2Count: 1
+    enemigoRapidoL2Count: 0
+    enemigoPesadoL2Count: 0
+    enemigoArmaduraCount: 0
+    enemigoArmaduraEnMuerteCount: 0
+    enemigoJefeOvniCount: 0
+    delayAfterRound: 20
+  - enemigoBasicoCount: 1
+    enemigoRapidoCount: 1
+    enemigoPesadoCount: 0
+    enemigoBasicoL2Count: 2
+    enemigoRapidoL2Count: 1
+    enemigoPesadoL2Count: 1
+    enemigoArmaduraCount: 0
+    enemigoArmaduraEnMuerteCount: 0
+    enemigoJefeOvniCount: 0
+    delayAfterRound: 20
+  - enemigoBasicoCount: 0
+    enemigoRapidoCount: 0
+    enemigoPesadoCount: 1
+    enemigoBasicoL2Count: 2
+    enemigoRapidoL2Count: 2
+    enemigoPesadoL2Count: 1
+    enemigoArmaduraCount: 0
+    enemigoArmaduraEnMuerteCount: 0
+    enemigoJefeOvniCount: 0
+    delayAfterRound: 20
+  - enemigoBasicoCount: 1
+    enemigoRapidoCount: 0
+    enemigoPesadoCount: 0
+    enemigoBasicoL2Count: 1
+    enemigoRapidoL2Count: 3
+    enemigoPesadoL2Count: 2
+    enemigoArmaduraCount: 0
+    enemigoArmaduraEnMuerteCount: 0
+    enemigoJefeOvniCount: 0
+    delayAfterRound: 20
+  - enemigoBasicoCount: 2
+    enemigoRapidoCount: 2
+    enemigoPesadoCount: 2
+    enemigoBasicoL2Count: 0
+    enemigoRapidoL2Count: 0
+    enemigoPesadoL2Count: 0
+    enemigoArmaduraCount: 0
+    enemigoArmaduraEnMuerteCount: 1
+    enemigoJefeOvniCount: 0
+    delayAfterRound: 18
+  - enemigoBasicoCount: 3
+    enemigoRapidoCount: 3
+    enemigoPesadoCount: 0
+    enemigoBasicoL2Count: 0
+    enemigoRapidoL2Count: 0
+    enemigoPesadoL2Count: 1
+    enemigoArmaduraCount: 0
+    enemigoArmaduraEnMuerteCount: 1
+    enemigoJefeOvniCount: 0
+    delayAfterRound: 17
+  - enemigoBasicoCount: 0
+    enemigoRapidoCount: 0
+    enemigoPesadoCount: 0
+    enemigoBasicoL2Count: 2
+    enemigoRapidoL2Count: 2
+    enemigoPesadoL2Count: 2
+    enemigoArmaduraCount: 0
+    enemigoArmaduraEnMuerteCount: 0
+    enemigoJefeOvniCount: 0
+    delayAfterRound: 30
+  - enemigoBasicoCount: 2
+    enemigoRapidoCount: 2
+    enemigoPesadoCount: 0
+    enemigoBasicoL2Count: 0
+    enemigoRapidoL2Count: 0
+    enemigoPesadoL2Count: 0
+    enemigoArmaduraCount: 2
+    enemigoArmaduraEnMuerteCount: 1
+    enemigoJefeOvniCount: 0
+    delayAfterRound: 20
+  - enemigoBasicoCount: 2
+    enemigoRapidoCount: 2
+    enemigoPesadoCount: 0
+    enemigoBasicoL2Count: 0
+    enemigoRapidoL2Count: 2
+    enemigoPesadoL2Count: 1
+    enemigoArmaduraCount: 2
+    enemigoArmaduraEnMuerteCount: 1
+    enemigoJefeOvniCount: 0
+    delayAfterRound: 18
+  - enemigoBasicoCount: 0
+    enemigoRapidoCount: 0
+    enemigoPesadoCount: 0
+    enemigoBasicoL2Count: 3
+    enemigoRapidoL2Count: 3
+    enemigoPesadoL2Count: 2
+    enemigoArmaduraCount: 2
+    enemigoArmaduraEnMuerteCount: 0
+    enemigoJefeOvniCount: 0
+    delayAfterRound: 20
+  - enemigoBasicoCount: 1
+    enemigoRapidoCount: 2
+    enemigoPesadoCount: 0
+    enemigoBasicoL2Count: 1
+    enemigoRapidoL2Count: 2
+    enemigoPesadoL2Count: 1
+    enemigoArmaduraCount: 3
+    enemigoArmaduraEnMuerteCount: 1
+    enemigoJefeOvniCount: 0
+    delayAfterRound: 20
+  - enemigoBasicoCount: 1
+    enemigoRapidoCount: 0
+    enemigoPesadoCount: 0
+    enemigoBasicoL2Count: 2
+    enemigoRapidoL2Count: 3
+    enemigoPesadoL2Count: 2
+    enemigoArmaduraCount: 2
+    enemigoArmaduraEnMuerteCount: 1
+    enemigoJefeOvniCount: 0
+    delayAfterRound: 25
+  - enemigoBasicoCount: 3
+    enemigoRapidoCount: 0
+    enemigoPesadoCount: 0
+    enemigoBasicoL2Count: 2
+    enemigoRapidoL2Count: 2
+    enemigoPesadoL2Count: 2
+    enemigoArmaduraCount: 2
+    enemigoArmaduraEnMuerteCount: 2
+    enemigoJefeOvniCount: 0
+    delayAfterRound: 35
+  - enemigoBasicoCount: 0
+    enemigoRapidoCount: 0
+    enemigoPesadoCount: 0
+    enemigoBasicoL2Count: 3
+    enemigoRapidoL2Count: 4
+    enemigoPesadoL2Count: 3
+    enemigoArmaduraCount: 2
+    enemigoArmaduraEnMuerteCount: 2
+    enemigoJefeOvniCount: 1
+    delayAfterRound: 20
+  caminoPrefab: {fileID: 7215434681175901133, guid: 42b06a9a766e19441ba0f7236f1d3330, type: 3}

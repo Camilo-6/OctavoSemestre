@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fe662dce55f1e14dacac36aa5ae033b, type: 3}
+  m_Name: Nivel1
+  m_EditorClassIdentifier: 
+  nombreDelNivel: Nivel 1
+  rondas:
+  - enemigoBasicoCount: 2
+    enemigoRapidoCount: 0
+    enemigoPesadoCount: 0
+    delayAfterRound: 20
+  - enemigoBasicoCount: 2
+    enemigoRapidoCount: 1
+    enemigoPesadoCount: 0
+    delayAfterRound: 20
+  - enemigoBasicoCount: 1
+    enemigoRapidoCount: 2
+    enemigoPesadoCount: 0
+    delayAfterRound: 20
+  - enemigoBasicoCount: 1
+    enemigoRapidoCount: 1
+    enemigoPesadoCount: 1
+    delayAfterRound: 15
+  - enemigoBasicoCount: 1
+    enemigoRapidoCount: 2
+    enemigoPesadoCount: 1
+    delayAfterRound: 15
+  - enemigoBasicoCount: 2
+    enemigoRapidoCount: 2
+    enemigoPesadoCount: 1
+    delayAfterRound: 15
+  - enemigoBasicoCount: 2
+    enemigoRapidoCount: 2
+    enemigoPesadoCount: 2
+    delayAfterRound: 15
+  - enemigoBasicoCount: 1
+    enemigoRapidoCount: 2
+    enemigoPesadoCount: 3
+    delayAfterRound: 15
+  - enemigoBasicoCount: 1
+    enemigoRapidoCount: 3
+    enemigoPesadoCount: 3
+    delayAfterRound: 15
+  - enemigoBasicoCount: 3
+    enemigoRapidoCount: 3
+    enemigoPesadoCount: 2
+    delayAfterRound: 15
+  - enemigoBasicoCount: 3
+    enemigoRapidoCount: 4
+    enemigoPesadoCount: 3
+    delayAfterRound: 12
+  - enemigoBasicoCount: 3
+    enemigoRapidoCount: 2
+    enemigoPesadoCount: 2
+    delayAfterRound: 12
+  - enemigoBasicoCount: 1
+    enemigoRapidoCount: 4
+    enemigoPesadoCount: 3
+    delayAfterRound: 12
+  - enemigoBasicoCount: 3
+    enemigoRapidoCount: 4
+    enemigoPesadoCount: 3
+    delayAfterRound: 12
+  - enemigoBasicoCount: 3
+    enemigoRapidoCount: 4
+    enemigoPesadoCount: 4
+    delayAfterRound: 20
+  caminoPrefab: {fileID: 6441435572215679460, guid: 3e9723126fb4d6440b7942da584fdb07, type: 3}
